@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.html" method="post">
+        <fieldset style="width: 600px; margin: 15px">
+          What is your name? <input type="text" name="이름" /> 
+        </br></br>
+        What is your student number? <input type="text" name="학번" />
+      </br></br>
+      What is your sex? <input type="radio" name="성별" value="M">male <input type="radio" name="성별" value="F">female
+      </br></br>
+      What grade are you in at Handong University? <select>
+          <option value="1">freshman</option>
+          <option value="2">sophomore</option>
+          <option value="3">junior</option>
+          <option value="4">senior</option>
+        </select>
+      </br></br> 
+      expected graduation date: <input type="date" name="졸업"/>
+    </br></br>
+    What are your plans after graduation?</br>
+    <textarea name="계획" cols="70" rows="5"></textarea>
+  </br></br> 
+  <input type="checkbox" name="정보저장동의"/>Consent to save information
+        </fieldset>
+        <input style="margin-left: 20px" type="submit" value="submit"/> <input type="reset" value="reset"/>
+      </form>
+</body>
+</html>
